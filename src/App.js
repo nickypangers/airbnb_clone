@@ -1,20 +1,17 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import Home from './Home';
+import React from "react";
+import "./App.css";
+import Home from "./Component/Home";
 
 function App() {
   return (
     <div className="App">
-      
-    <Header />  
-    <Home />
+      <Home />
 
-    {/* Home */}
-      {/* Header */}
+      {/* Home */}
+      {/*   Header */}
 
       {/* Banner */}
-        {/* Search */}
+      {/*   Search */}
 
       {/* Cards */}
 
@@ -22,7 +19,6 @@ function App() {
 
       {/* Search Page */}
       {/* ... */}
-
     </div>
   );
 }

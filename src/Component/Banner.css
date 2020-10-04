@@ -1,0 +1,34 @@
+.banner {
+  width: 100%;
+  background: url("https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg")
+    center center;
+  height: 500px;
+  object-fit: contain;
+  position: relative;
+  color: white;
+  font-size: 14px;
+}
+
+.banner__info {
+  position: absolute;
+  padding: 15vh 50px 50px 40px;
+  color: white;
+  width: 30%;
+}
+
+.banner__info > h1,
+p {
+  margin-bottom: 14px;
+}
+
+.banner__info > p {
+  font-weight: 500;
+}
+
+.banner__info > button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: 600;
+  border: none;
+}
