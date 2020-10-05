@@ -1,12 +1,13 @@
 import React from "react";
 import "./Banner.css";
 import Header from "./Header";
-// import { Button } from "@material-ui/core";
+import SearchRow from "./SearchRow";
 
 function Banner() {
   return (
     <div className="banner">
       <Header />
+      <SearchRow />
       <div className="banner__info">
         <h1>Go Near</h1>
         <p>

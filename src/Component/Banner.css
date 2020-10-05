@@ -2,23 +2,26 @@
   width: 100%;
   background: url("https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg")
     center center;
-  height: 500px;
-  object-fit: contain;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .banner__info {
   position: absolute;
-  padding: 15vh 50px 50px 40px;
+  padding-top: 20vh;
+  padding-bottom: 40px;
+  margin: 0 160px;
   color: white;
-  width: 30%;
+  max-width: 15vw;
 }
 
 .banner__info > h1,
 p {
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .banner__info > p {
@@ -31,4 +34,12 @@ p {
   background-color: white;
   font-weight: 600;
   border: none;
+}
+
+.banner__info > button:hover {
+  background-color: #efeff0;
+}
+
+.banner__info > button:focus {
+  outline: none;
 }

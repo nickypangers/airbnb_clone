@@ -1,0 +1,17 @@
+.covidBanner {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.covidBanner > a {
+  padding-top: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+.covidBanner > a:focus {
+  outline: none;
+}
